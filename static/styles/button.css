@@ -1,0 +1,21 @@
+.btn{
+    height: 50px;
+    border:solid #ffffff 2px;
+    margin: 1px;
+    border-radius: 25px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1em;
+    transition: all ease 0.2s;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+    font-size: 1.2em;
+}
+
+.btn:last-child:hover {
+    background-color: rgb(35, 201, 132);
+    border: none;
+}
