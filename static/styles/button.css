@@ -19,3 +19,9 @@
     background-color: rgb(35, 201, 132);
     border: none;
 }
+
+.active{
+    background-color: #fff;
+    color: #000;
+    font-size: 1.2em;
+}
