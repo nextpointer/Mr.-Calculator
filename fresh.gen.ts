@@ -6,6 +6,7 @@ import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
 import * as $api_joke from "./routes/api/joke.ts";
 import * as $index from "./routes/index.tsx";
+import * as $AllMethods from "./islands/AllMethods.tsx";
 import * as $Button from "./islands/Button.tsx";
 import * as $Forms from "./islands/Forms.tsx";
 import { type Manifest } from "$fresh/server.ts";
@@ -18,6 +19,7 @@ const manifest = {
     "./routes/index.tsx": $index,
   },
   islands: {
+    "./islands/AllMethods.tsx": $AllMethods,
     "./islands/Button.tsx": $Button,
     "./islands/Forms.tsx": $Forms,
   },

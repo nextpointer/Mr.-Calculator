@@ -1,16 +1,19 @@
 @import url(header.css);
 @import url(form.css);
 @import url(button.css);
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-   
+    font-family: "Kode Mono", monospace;
 }
 
+
+
+
 body{
-    background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% );
+    background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, #149414   93.2% );
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -31,6 +34,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
 
 
 }
