@@ -15,10 +15,10 @@
     font-size: 1.2em;
 }
 
-.btn:last-child:hover {
+/* .btn:last-child:hover {
     background-color: rgb(35, 201, 132);
     border: none;
-}
+} */
 
 .active{
     background-color: #fff;

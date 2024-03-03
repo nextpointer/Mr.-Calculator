@@ -21,11 +21,13 @@ export function Calculator() {
                 <Button value="/" width="90px" label="x/y"/>
                 <Button value="%" width="90px" label="x%y"/>
                 <Button value="^" width="90px" label="x^y"/>
-                <Button value="=" width="100%" label="CALCULATE"/>            
+                       
             </div>
           </div>
           <div className="output-section">
-          <Form width="60%" readOnly={true} value={resultArea.value} type=''/>
+          <Form width="69%" readOnly={true} value={resultArea.value} type=''/>
+          <Button value="download" width="110px" label="Download"/>
+          <Button value="clear" width="90px" label="Clear"/>
           </div>
         </div>
       </>

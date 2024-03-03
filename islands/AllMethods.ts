@@ -29,27 +29,43 @@ export const operation = (e: Event) => {
       const num1 = Number(textArea1.value);
       const num2 = Number(textArea2.value);
       resultArea.value = String(num1 + num2);
+        // Update the active button reference
+      activeButton = target;
+      target.classList.add('active');
       break;
     case '-':
       resultArea.value = String(Number(textArea1.value) - Number(textArea2.value));
+      activeButton = target;
+      target.classList.add('active');
       break;
     case '*':
       resultArea.value = String(Number(textArea1.value) * Number(textArea2.value));
+      activeButton = target;
+      target.classList.add('active');
       break;
     case '/':
       resultArea.value = String(Number(textArea1.value) / Number(textArea2.value));
+      activeButton = target;
+      target.classList.add('active');
       break;
     case '%':
       resultArea.value = String(Number(textArea1.value) % Number(textArea2.value));
+      activeButton = target;
+      target.classList.add('active');
       break;
     case '^':
       resultArea.value = String(Math.pow(Number(textArea1.value), Number(textArea2.value)));
+      activeButton = target;
+      target.classList.add('active');
+      break;
+    case 'clear':
+      textArea1.value='';
+      textArea2.value=''
+      resultArea.value=''
       break;
     default:
       break;
   }
 
-  // Update the active button reference
-  activeButton = target;
-  target.classList.add('active');
+
 };

@@ -54,7 +54,7 @@ body{
     /* border: solid white 1px; */
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .fill-ip-section{
     height: 100%;
