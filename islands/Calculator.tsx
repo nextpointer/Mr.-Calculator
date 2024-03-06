@@ -25,8 +25,7 @@ export function Calculator() {
             </div>
           </div>
           <div className="output-section">
-          <Form width="69%" readOnly={true} value={resultArea.value} type=''/>
-          <Button value="download" width="110px" label="Download"/>
+          <Form width="80%" readOnly={true} value={resultArea.value} type=''/>
           <Button value="clear" width="90px" label="Clear"/>
           </div>
         </div>
