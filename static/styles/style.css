@@ -12,14 +12,13 @@
 
 
 
-body{
+.merge-header-calculator{
     background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, #149414   93.2% );
-    height: 100vh;
+    height: 93vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-
 }
 
 
@@ -81,20 +80,32 @@ body{
    
 }
 
+.operation-section > .form-style{
+   border: solid 1px #a4a3a3;
+}
+
+.form-style:placeholder-shown{
+    color: #8f8f8f;
+}
+
+
+
 
 
 /* Change window for phone */
-@media (max-width: 775px) {
-    body{
+@media (max-width: 1108px) {
+    .merge-header-calculator{
         flex-direction: column;
         align-items:center;
+        justify-content: start;
+        padding-top: 10px;
     }
     #container{
         margin: 10px;
     }
 
     .header p{
-        font-size: 3rem;
+        font-size:2.1rem ;
     }
     
 }

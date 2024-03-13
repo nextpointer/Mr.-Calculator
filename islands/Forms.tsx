@@ -6,15 +6,18 @@ interface Prop{
     width:string,
     readOnly:boolean
     value:string,
-    type:string
+    type:string,
+    placeholder:string
+    height:string
 }
 
 
 
 export const Form=(props:Prop)=>{
-    const {width,readOnly,value,type}=props;
+    const {width,readOnly,value,type,placeholder,height}=props;
     const formStyle={
-        width:width
+        width:width,
+        height:height
     }
 
     const typeStoring=(e:Event)=>{
@@ -26,6 +29,6 @@ export const Form=(props:Prop)=>{
     
     return (
         
-        <textarea type="text" class="form-style" style={formStyle} readOnly={readOnly} value={value} onInput={typeStoring}/>
+        <textarea type="text" class="form-style" style={formStyle} readOnly={readOnly} value={value} placeholder={placeholder} onInput={typeStoring}/>
     );
 }

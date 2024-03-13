@@ -15,13 +15,14 @@
     font-size: 1.2em;
 }
 
-/* .btn:last-child:hover {
-    background-color: rgb(35, 201, 132);
-    border: none;
-} */
 
 .active{
     background-color: #fff;
     color: #000;
     font-size: 1.2em;
+}
+
+
+.output-section>button{
+    margin: 2px;
 }
