@@ -1,6 +1,6 @@
 # Mr. Calculator
 
-This is a web application built using Fresh (Deno framework) that allows you to perform calculations with extremely large numbers. It utilizes the powerful Big.js library to handle arbitrary-precision arithmetic, ensuring accurate results even for massive values.
+This is a web application built using Fresh (deno runtime) that allows you to perform calculations with extremely large numbers. It utilizes the powerful Big.js library to handle arbitrary-precision arithmetic, ensuring accurate results even for massive values.
 
 ## Features
 
