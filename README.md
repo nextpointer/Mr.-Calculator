@@ -7,10 +7,8 @@ This is a web application built using Fresh (Deno framework) that allows you to 
 * **Arbitrary-precision arithmetic:** Calculate with numbers beyond the limitations of standard JavaScript data types using Big.js.
 * **User-friendly interface:** Interact with the calculator through a clear and intuitive interface.
 
-## Live Demo
+## Pictures
 
-### Link:
 
-[https://mr-calculator.deno.dev/](https://)
 ![1710518419585](images/README/1710518419585.png)
 
