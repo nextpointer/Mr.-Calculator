@@ -2,6 +2,22 @@
 export function Footer() {
   return (
     <>
+      <section class="features-section-phone">
+        <div class="features-grid">
+          <div class="feature-card">
+            <p>⚡ Arbitrary-Precision</p>
+          </div>
+          <div class="feature-card">
+            <p>🔒 Precision Control</p>
+          </div>
+          <div class="feature-card">
+            <p>🖩 Large Number Support</p>
+          </div>
+          <div class="feature-card">
+            <p>🎯 Accurate Results</p>
+          </div>
+        </div>
+      </section>
       <div class="contact-section">
         <div className={"icon"}>
           <a href="https://github.com/nextpointer/Mr.-Calculator" target={"_blank"}><img src="/assets/gh.png" alt="" /></a>

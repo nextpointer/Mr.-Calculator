@@ -1,7 +1,9 @@
 .btn {
     height: 50px;
     border: solid #ffffff 2px;
-    margin: 1px;
+    margin: 2px;
+    margin-left:4px;
+    margin-top: 4px;
     border-radius: 25px;
     background-color: transparent;
     color: #fff;
@@ -23,14 +25,14 @@
 .btn:hover {
     background-color: #fff;
     color: #000;
-    font-size: 1.2em;
+    transform:scale(1.05);
 }
 
 
 .active {
     background-color: #fff;
     color: #000;
-    font-size: 1.2em;
+    transform:scale(1.05);
 }
 
 
